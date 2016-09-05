@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Афиша развлечений</string>
+    <string name="title_item_detail">Подробно</string>
+    <string name="title_activity_filters">Фильтры</string>
+    <string name="LOG_TAG">Stratos</string>
+    <string name="Description">ОПИСАНИЕ</string>
+    <string name="Comments">КОММЕНТАРИИ</string>
+    <string name="ticket">БИЛЕТЫ</string>
+    <string name="priceValue">СТОИМОСТЬ</string>
+    <string name="menu_filters">Фильтры</string>
+    <string name="menu_fcity">Города</string>
+    <string name="menu_fother">Расширенные</string>
+    <string name="menu_fdate">Дата</string>
+    <string name="menu_fsort">Сортировка</string>
+    <string name="btnForAllDates">За все время</string>
+    <string name="close">ОТМЕНА</string>
+    <string name="btnDone">ПРИМЕНИТЬ</string>
+    <string name="btnFreeOnly">Только бесплатные</string>
+    <string name="btnCostsize">Ограничение стоимости</string>
+    <string name="lessSize">Меньше чем</string>
+    <string name="limitDist">Ограничение расcтояния в километрах</string>
+    <string name="inRadius">В радиусе</string>
+    <string name="send">ОТПРАВИТЬ</string>
+    <string name="comment_hint"> Я думаю, что…</string>
+
+    <string-array name="page_titls">
+        <item>Категории</item>
+        <item>Дата</item>
+        <item>Расширенные</item>
+        <item>Сортировка</item>
+        <item>Города</item>
+    </string-array>
+    <string-array name="fsort">
+        <item>По дате</item>
+        <item>По стоимости</item>
+        <item>По популярности</item>
+        <item>По растоянию</item>
+    </string-array>
+</resources>

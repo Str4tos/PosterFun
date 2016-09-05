@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_filter"
+        android:icon="@drawable/ic_filtr"
+        app:showAsAction="always|withText"
+        android:title="@string/menu_filters">
+    </item>
+    <item
+        android:id="@+id/menu_fsort"
+        android:icon="@drawable/ic_sort_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_fsort">
+    </item>
+    <item
+        android:id="@+id/menu_fdate"
+        android:icon="@drawable/ic_date_range_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_fdate">
+    </item>
+    <item
+        android:id="@+id/menu_fother"
+        android:icon="@drawable/ic_done_all_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_fother">
+    </item>
+    <item
+        android:id="@+id/menu_fcity"
+        android:icon="@drawable/ic_location_city_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_fcity">
+    </item>
+
+</menu>

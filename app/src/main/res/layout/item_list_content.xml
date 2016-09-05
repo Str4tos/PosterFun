@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="start"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/list_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Name"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/list_Additionally"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Additionally"
+            android:padding="5dp"
+            android:textColor="@color/textSecond"
+            android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/list_DateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TimeDate"
+            android:padding="5dp"
+            android:textColor="@color/textSecond"
+            android:textStyle="italic"
+            android:layout_weight="3" />
+
+        <TextView
+            android:id="@+id/list_likeNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:layout_marginRight="3dp" />
+
+        <ImageButton
+            android:id="@+id/list_likeBtn"
+            android:layout_width="25dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_favorit_border"
+            style="?android:attr/borderlessButtonStyle"
+            android:contentDescription="Like" />
+    </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

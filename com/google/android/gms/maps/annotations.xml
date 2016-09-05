@@ -1,0 +1,6 @@
+<root>
+  <item
+      name='com.google.android.gms.maps.SupportMapFragment com.google.android.gms.maps.GoogleMap getMap()'>
+    <annotation name='android.support.annotation.NonNull' />
+  </item>
+</root>
