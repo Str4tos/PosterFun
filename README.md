@@ -30,4 +30,6 @@ Show detail information about event, poin location on map, adding a comment, dis
 
 ![1](https://cloud.githubusercontent.com/assets/22005013/18400476/c08e0dc0-76de-11e6-86ac-557cdc2bbd10.jpg)
 
+## Documentation
+Detailed documentation is presented in the form of notes diploma.
 
